@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 
 class HelloWorld extends Component {
     state = {
-      who: 'world',
+      state: 'world'
     };
 
     render () {
