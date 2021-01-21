@@ -6,6 +6,8 @@ import TheDate from './state/TheDate';
 import Counter from './state/Counter';
 import Tabs from './Tabs'
 import Accordion from './state-drills/Accordion';
+import DemonynApp from './demonymapp/demonymApp';
+
 // make 2 tooltips here and another inside the App directly
 // const firstTooltip = (
 //   <Tooltip color='hotpink' message='tooltip message'>
@@ -29,9 +31,10 @@ const tabsProp = [
 
 class App extends React.Component {
   render() {
-    return <div>
-      <Tabs tabs={tabsProp} />
-      <Accordion />
+    return <div className="App">
+      <DemonynApp/>
+      {/* <Tabs tabs={tabsProp} />
+      <Accordion /> */}
     </div>
   }
 }
